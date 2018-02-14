@@ -1,0 +1,96 @@
+ 1  ip a
+ +    2  clear
+ +    3  ssh root@192.168.104.37
+ +    4  ssh root@192.168.104.43
+ +    5  clear
+ +    6  ssh root@192.168.104.43
+ +    7  ip a
+ +    8  ip a
+ +    9  cd /etc/sysconfig/network-scripts/
+ +   10  pwd
+ +   11  ls
+ +   12  ls ifcfg
+ +   13  ls
+ +   14  vi ifcfg-enp0s3
+ +   15  pwd
+ +   16  vi ifcfg-enp0s3
+ +   17  vi ifcfg-enp0s8
+ +   18  systemctl restart network
+ +   19  ip a
+ +   20  shut down
+ +   21  shutdown
+ +   22  yum install git -y
+ +   23  clear
+ +   24  cd /tmp/
+ +   25  git clone https://github.com/jonas/tig.git
+ +   26  cd tig
+ +   27  yum install gcc ncurses-devel ncurses
+ +   28  gcc
+ +   29  make
+ +   30  make install
+ +   31  clear
+ +   32  tig
+ +   33  ls
+ +   34  pwd
+ +   35  tig
+ +   36  ls
+ +   37  cd ..
+ +   38  pwd
+ +   39  ls
+ +   40  clear
+ +   41  rm -rf tig/
+ +   42  tig
+ +   43  git clone https://github.com/d4n13lbc/so-workshop2.git
+ +   44  ls
+ +   45  cd so-workshop2/
+ +   46  clear
+ +   47  tig
+ +   48  pwsd
+ +   49  pwd
+ +   50  tig
+ +   51  cd ..
+ +   52  ls
+ +   53  cd so-workshop2/
+ +   54  touch message_1.txt
+ +   55  ls
+ +   56  git status
+ +   57  gclear
+ +   58  clear
+ +   59  ls
+ +   60  git add message_1.txt 
+ +   61  git status
+ +   62  git reset message_1.txt 
+ +   63  git status
+ +   64  git branch
+ +   65  clear
+ +   66  git branch
+ +   67  git checkout -b A0000/workshop2
+ +   68  git branch
+ +   69  git checkout master
+ +   70  git branch -D A0000/workshop2
+ +   71  git checkout -b dbarragan/workshop2
+ +   72  git branch
+ +   73  touch message_1.txt
+ +   74  clear
+ +   75  git branch
+ +   76  ls
+ +   77  git add message_1.txt 
+ +   78  history
+ +   79  qqqclear
+ +   80  clear
+ +   81  git status
+ +   82  git commit -m "Add message_1.txt"
+ +   83  clear
+ +   84  git config --global user.name "Daniel Barragan"
+ +   85  git config --global user.email daniel.barragan@correo.icesi.edu.co
+ +   86  git status
+ +   87  tig
+ +   88  git commit --amend
+ +   89  clear
+ +   90  tig
+ +   91  ls
+ +   92  cat .git/config 
+ +   93  git push origin dbarragan/workshop2
+ +   94  clear
+ +   95  ls
+ +   96  history > command_list.txt
