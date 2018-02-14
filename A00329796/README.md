@@ -1,1 +1,0 @@
-Joan Sebastián García Delgado
