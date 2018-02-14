@@ -1,0 +1,87 @@
++    1  ip a
+ +    2  cd /etc/sys
+ +    3  cd /etc/sysconfig/network-scripts/
+ +    4  pwd
+ +    5  ls
+ +    6  vi ifcfg-enp0s3
+ +    7  :q
+ +    8  ls
+ +    9  vi ifcfg-enp0s8
+ +   10  ls
+ +   11  vi ifcfg-enp0s8
+ +   12  systemctl restart network
+ +   13  ipa
+ +   14  ip a
+ +   15  ip a
+ +   16  ssh
+ +   17  sch
+ +   18  ssh root@192.168.104.41
+ +   19  shutdown -h now
+ +   20  ssh
+ +   21  yum install git -y
+ +   22  cd /tmp
+ +   23  git clone https://github.com/jonas/tig.git
+ +   24  cd tig
+ +   25   yum install gcc ncurses-devel ncurses
+ +   26  gcc
+ +   27  make
+ +   28   make install
+ +   29  tig
+ +   30  h
+ +   31  tig
+ +   32   ls
+ +   33  cd..
+ +   34  pwd
+ +   35  rm -rf tig/
+ +   36  tig
+ +   37  cd ..
+ +   38  rm -rf tig/
+ +   39  tig
+ +   40  git clon https://github.com/estivenLandazury/so-workshop2.git
+ +   41  git clone https://github.com/estivenLandazury/so-workshop2.git
+ +   42  cd so-workshop2/
+ +   43  tig
+ +   44   touch message_1.txt
+ +   45  ls
+ +   46  git status
+ +   47  git add message_1.txt
+ +   48  git status
+ +   49  git resert  message_1.txt
+ +   50  git status
+ +   51  git reset message_1.txt 
+ +   52  git status
+ +   53  git branch
+ +   54  git checkout -b A00056992/workshop2
+ +   55  git branch
+ +   56  git branch -D A00056992/workshop2
+ +   57  git checkout 
+ +   58  git branch
+ +   59  git checkout -d master
+ +   60  clear
+ +   61  git branch master
+ +   62  git branch
+ +   63  git checkout master
+ +   64  git branch
+ +   65  git checkout -D A0
+ +   66  git  checkout -d A00056992/workshop2
+ +   67  git  checkout -b A00056992/workshop2
+ +   68  git  checkout -d A00056992/workshop2
+ +   69  git branch -d A00056992/workshop2
+ +   70  git  checkout -b slandazury/workshop2
+ +   71  git branch
+ +   72  git add message_1.txt 
+ +   73  ls
+ +   74  git status
+ +   75  git comment -m  "add message_1.txt"
+ +   76  git commit -m "add message_1.txt"
+ +   77  gitn config --global usuer.name "Estiven landazury"
+ +   78  git config --global user.name "Estiven landázury"
+ +   79  git config --global user.email steven-salazar2012@hotmail.com
+ +   80  tig
+ +   81  git status
+ +   82  git push origin slandazury/workshop2
+ +   83  history
+ +   84  tig
+ +   85  power off
+ +   86  ls
+ +   87  history > command_list.txt
