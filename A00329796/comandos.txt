@@ -1,0 +1,119 @@
+    1  yum install git -y
+    2  yum install gcc ncurses-devel ncurses
+    3  gcc
+    4  make
+    5  make install
+    6  git status
+    7  git clone https://github.com/ikermatias/so-workshop2
+    8  ls
+    9  cd so-workshop2/
+   10  ls
+   11  git checkout
+   12  ls
+   13  git status
+   14  git branch
+   15  clear
+   16  git branch
+   17  ls
+   18  git checkout -b
+   19  git checkout
+   20  git branch
+   21  git checkout patch-1
+   22  ls
+   23  git branch
+   24  ls
+   25  git branch
+   26  git status
+   27  cd
+   28  git clone https://github.com/ICESI/so-syscalls
+   29  cd so-syscalls/
+   30  ls
+   31  cd 01_intro/
+   32  ls
+   33  cd sources/
+   34  ls
+   35  gcc syscl_01 -o syscl_01.o
+   36  gcc syscl_01.c -o syscl_01.o
+   37  ./syscl_01.o 
+   38  yum install strace
+   39  strace s-trace=exit_group /usr/bin/true
+   40  strace -etrace=exit_group /usr/bin/true
+   41  strace python -c ""
+   42  cd
+   43  mystery.py
+   44  vi mystery.py
+   45  strace python mystery.py
+   46  strace -etrace=write python mystery.py
+   47  ls
+   48  cd so-workshop2/
+   49  ls
+   50  cd A00329796/
+   51  ls
+   52  mkdir syscalls
+   53  ls
+   54  cd syscalls/
+   55  vi syscall1.c
+   56  ls
+   57  gcc syscall1.c -o syscall1.o
+   58  vi syscall1.c 
+   59  gcc syscall1.c -o syscall1.o
+   60  vi syscall1.c 
+   61  clear
+   62  gcc syscall1.c -o syscall1.o
+   63  vi syscall1.c 
+   64  gcc syscall1.c -o syscall1.o
+   65  vi syscall1.c 
+   66  gcc syscall1.c -o syscall1.o
+   67  ls
+   68  ./syscall1.o 
+   69  vi syscall1.c 
+   70  gcc syscall1.c -o syscall1.o
+   71  vi syscall1.c 
+   72  gcc syscall1.c -o syscall1.o
+   73  vi syscall1.c 
+   74  gcc syscall1.c -o syscall1.o
+   75  ./syscall1.o 
+   76  ls
+   77  rm syscall1.o
+   78  ls
+   79  vi Tiempo
+   80  gcc syscall1.c -o syscall1.o
+   81  ./syscall1.o 
+   82  ls
+   83  vi Tiempo
+   84  vi syscall1.c 
+   85  rm syscall1.o
+   86  gcc syscall1.c -o syscall1.o
+   87  vi syscall1.c 
+   88  gcc syscall1.c -o syscall1.o
+   89  ./syscall1.o 
+   90  vi Tiempo
+   91  vi Makefile
+   92  ls
+   93  strace -etrace=write() syscall1.0
+   94  strace -etrace=write syscall1.0
+   95  strace -etrace=write syscall1.o
+   96  ls
+   97  strace -etrace=write syscall1.o
+   98  strace -etrace=write syscall1.c
+   99  strace -etrace=write syscall1.o
+  100  strace -etrace=write gcc syscall1.c
+  101  strace -etrace=write gcc syscall1.o
+  102  strace -etrace=write ./syscall1.o
+  103  strace -etrace=open ./syscall1.o
+  104  strace -etrace=read ./syscall1.o
+  105  history comandos.txt
+  106  history
+  107  history --h
+  108  history > comandos.txt
+  109  ls
+  110  vi Makefile 
+  111  Makefile
+  112  ./Makefile
+  113  sudo ./Makefile
+  114  sudo Makefile
+  115  Makefile Makefile 
+  116  make Makefile 
+  117  vi Makefile 
+  118  make ejecutar_codigo
+  119  history > comandos.txt
